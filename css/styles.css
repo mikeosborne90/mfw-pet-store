@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+
+/* Nav Section */
+
+.logo
+{
+    height: 70px;
+}
+
+header h1
+{
+    color: #c9c983;
+    font-family: 'Satisfy', cursive;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.nav-pills > li
+{
+    border-radius: 5px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.nav-pills > li > a
+{
+    color: #5c433f;
+    font-weight: 300;
+}
+
+.nav-pills > li.active > a
+{
+    color: #5c433f;
+    background-color: #eeddcd;
+
+}
+
+/* Jumbotron section */
+
+.jumbotron
+{
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.jumbotron h2
+{
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight:400;
+    
+    color: #fff;
+}
+
+/* Main Section */
+
+.text-justify
+{
+    word-break: break-all;
+}
+
+.img_box
+{
+    background-color: #eeddcd;
+    border-radius: 5px;
+}
+
+.img_box > .img-responsive
+{
+    margin-top: 10px;
+}
+
+.purchase
+{
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+h2
+{
+    font-weight: bold;
+}
+
+h4
+{
+    font-weight: bold;
+}
+
+#services > ul
+{
+    margin-top: -20px;
+}
+
+.featured > p, .img_box > div > p
+{
+    color: #000;
+}
+
+li[role=presentation] > a
+{
+    background-color: #eeddcd;
+    border: 2px solid #000;
+}
+
+/* Footer Section */
+
+footer
+{
+    background-color: #eeddcd;
+    margin-top: 60px;
+}
+
+#footerLogo
+{
+    height: 80px;
+    margin-top: 20px;
+}
+
+.separator
+{
+    border-left: 2px solid #000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 90px;
+}
+
+.separator > div
+{
+    margin-top: 15px;
+}
+
+.info
+{
+    margin-bottom: -5px;
+}
